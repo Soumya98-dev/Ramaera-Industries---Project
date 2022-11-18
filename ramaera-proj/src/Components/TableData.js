@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import ActiveImg from "../images/Ellipse101.png";
 
 export default function TableData({ projName, projAbout, currStatus, image }) {
   return (
@@ -19,7 +20,7 @@ export default function TableData({ projName, projAbout, currStatus, image }) {
                 Active
                 <img
                   style={{ height: 5, width: 5, paddingLeft: 10 }}
-                  src="images/Ellipse101.png"
+                  src={ActiveImg}
                   alt=""
                 />
               </span>

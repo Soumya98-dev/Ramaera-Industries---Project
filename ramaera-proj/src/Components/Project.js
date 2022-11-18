@@ -2,6 +2,9 @@ import React from "react";
 import "../App.css";
 import Square from "../images/Edit-Square.png";
 import TableData from "./TableData";
+import GaramImg from "../images/Ellipse97.png";
+import HotelImg from "../images/Ellipse98.png";
+import TechnologyImg from "../images/Ellipse99.png";
 
 export default function Project() {
   const tableDataObj = [
@@ -10,21 +13,21 @@ export default function Project() {
       projAbout:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nisi, mi, ornare aliquet. ",
       currStatus: true,
-      image: "../images/Ellipse97.png",
+      image: GaramImg,
     },
     {
       projName: "Hotels",
       projAbout:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nisi, mi, ornare aliquet. ",
       currStatus: true,
-      image: "../images/Ellipse98.png",
+      image: HotelImg,
     },
     {
       projName: "Technology",
       projAbout:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nisi, mi, ornare aliquet. ",
       currStatus: false,
-      image: "../images/Ellipse99.png",
+      image: TechnologyImg,
     },
   ];
   return (
