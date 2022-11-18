@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../images/Ramaera-Logo.png";
 import "../App.css";
-import notiLogo from "../images/NotiLogo.png";
 import polygon from "../images/Polygon 1.png";
+import NotifyImg from "../images/Notify.png";
 
 export default function Nav() {
   return (
@@ -13,7 +13,7 @@ export default function Nav() {
           <h1>Ramaera Industries</h1>
         </div>
         <div className="nav-details">
-          <img src={notiLogo} alt="notification logo" />
+          <img src={NotifyImg} alt="notification logo" />
           <div>
             <p>English(UK)</p>
             <img src={polygon} alt="Dropdown logo" />
