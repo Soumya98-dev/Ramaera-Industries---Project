@@ -9,34 +9,34 @@ import Project from "./Project";
 import Slider from "./Slider";
 
 export default function SideBar() {
-  return (
-    <div id={"main-content"}>
-      <div id="side-bar">
-        <ul>
-          <li>
-            <img src={Profile} alt="" />
-            <span>Profile</span>
-          </li>
-          <li className={"highlighted"}>
-            <img src={Projects} alt="" />
-            <span>Projects</span>
-            <img src={polygon} alt="" />
-          </li>
-          <li>
-            <img src={Finance} alt="" />
-            <span>Finance</span>
-            <img src={polygon} alt="" />
-          </li>
-          <li>
-            <img src={Support} alt="" />
-            <span>Support</span>
-            <img src={polygon} alt="" />
-          </li>
-        </ul>
-        <div className={"right-border"}></div>
-      </div>
-      <Project />
-      <Slider />
-    </div>
-  );
+    return (
+        <div id={"main-content"}>
+            <div id="side-bar">
+                <ul>
+                    <li>
+                        <img src={Profile} alt=""/>
+                        <span>Profile</span>
+                    </li>
+                    <li className={"highlighted"}>
+                        <img src={Projects} alt=""/>
+                        <span>Projects</span>
+                        <img src={polygon} alt=""/>
+                    </li>
+                    <li>
+                        <img src={Finance} alt=""/>
+                        <span>Finance</span>
+                        <img src={polygon} alt=""/>
+                    </li>
+                    <li>
+                        <img src={Support} alt=""/>
+                        <span>Support</span>
+                        <img src={polygon} alt=""/>
+                    </li>
+                </ul>
+                <div className={"right-border"}></div>
+            </div>
+            <Project/>
+            <Slider/>
+        </div>
+    );
 }
