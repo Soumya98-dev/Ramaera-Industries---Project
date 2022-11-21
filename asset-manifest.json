@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Ramaera-Industries---Project/static/css/main.8438390a.css",
+    "main.js": "/Ramaera-Industries---Project/static/js/main.11a20d51.js",
+    "static/media/spicesList.png": "/Ramaera-Industries---Project/static/media/spicesList.3323c85bfac10fb8bbe3.png",
+    "static/media/Ramaera-Logo.png": "/Ramaera-Industries---Project/static/media/Ramaera-Logo.87390e23f1622081d72f.png",
+    "static/media/Group 39.png": "/Ramaera-Industries---Project/static/media/Group 39.9b1f862d981e90f53ac3.png",
+    "static/media/Ellipse97.png": "/Ramaera-Industries---Project/static/media/Ellipse97.552a0b2966e3a4820668.png",
+    "static/media/Ellipse98.png": "/Ramaera-Industries---Project/static/media/Ellipse98.fa92ea1baa7737f6fdf9.png",
+    "index.html": "/Ramaera-Industries---Project/index.html",
+    "main.8438390a.css.map": "/Ramaera-Industries---Project/static/css/main.8438390a.css.map",
+    "main.11a20d51.js.map": "/Ramaera-Industries---Project/static/js/main.11a20d51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8438390a.css",
+    "static/js/main.11a20d51.js"
+  ]
+}
